@@ -47,7 +47,7 @@ This project is designed to deliver fast and efficient RESTful web services powe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url
+   git clone https://github.com/Jitendra145/cardatabase.git
    ```
 
 2. Navigate to the backend folder and run:
