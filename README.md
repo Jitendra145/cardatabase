@@ -1,5 +1,3 @@
-Here's a draft for your `README.md` based on the provided content:
-
 ---
 
 # Car Database
@@ -86,6 +84,3 @@ npm test
 2. **AWS**:
    - Deploy using your AWS account with services like EC2, S3, or Elastic Beanstalk.
 
----
-
-This README outlines your project's functionality and can be further customized with specific setup instructions or detailed usage examples.
