@@ -4,18 +4,18 @@
 
 ## Overview
 
-This project is designed to deliver fast and efficient RESTful web services powered by Spring Data REST. The application includes robust database management with the help of ORM tools such as JPA and Hibernate, coupled with modern frontend development techniques using React.
+This project provides fast and efficient RESTful web services powered by Spring Data REST. The application features robust database management using ORM tools like JPA and Hibernate, combined with a modern React frontend.
 
 ## Features
 
-- **Fast and RESTful Web Services**: Built with Spring Data REST, offering high-performance APIs that are easy to integrate.
-- **Database Management**: Utilize ORM tools like JPA and Hibernate to create and manage databases effortlessly.
-- **Unit Testing and Security**: Leverage unit tests and secure your services using JWT (JSON Web Token) with Spring Security.
-- **React Frontend**: Use React Hooks, props, and state management to build dynamic, interactive user interfaces.
-- **Material UI**: Customize your frontend with Material UI components to create a polished and professional look.
-- **Networking**: Handle network requests efficiently using Fetch API, Axios, and React Query.
-- **CRUD Functionality**: Implement Create, Read, Update, and Delete operations seamlessly across your application.
-- **Deployment**: Deploy your application effortlessly using AWS and Docker for scalable and reliable production environments.
+- **Fast and RESTful Web Services**: Powered by Spring Data REST for high-performance APIs.
+- **Database Management**: Use ORM tools like JPA and Hibernate to manage databases.
+- **Testing and Security**: Employ unit tests and secure APIs using JWT with Spring Security.
+- **React Frontend**: Create dynamic UIs with React Hooks, props, and state management.
+- **Material UI**: Customize the frontend with Material UI components.
+- **Networking**: Use Fetch API, Axios, and React Query for efficient network requests.
+- **CRUD Operations**: Add full Create, Read, Update, and Delete functionality.
+- **Deployment**: Deploy applications using AWS and Docker for scalable environments.
 
 ## Tech Stack
 
@@ -23,17 +23,17 @@ This project is designed to deliver fast and efficient RESTful web services powe
 - **Spring Boot**: Fast and scalable backend framework.
 - **Spring Data REST**: Simplified data access and CRUD operations through RESTful services.
 - **JPA/Hibernate**: Object-relational mapping (ORM) for efficient database interactions.
-- **Spring Security with JWT**: Secure your API endpoints with industry-standard authentication mechanisms.
+- **Spring Security with JWT**: Secure API endpoints using JWT-based authentication.
 
 ### Frontend
-- **React**: Modern JavaScript library for building user interfaces.
-- **React Hooks**: Manage state and side effects in functional components.
-- **Material UI**: Prebuilt components for quick and customizable UI design.
-- **Axios / Fetch API / React Query**: Efficiently handle HTTP requests and data fetching.
+- **React**: A JavaScript library for building user interfaces.
+- **React Hooks**: Manage state and lifecycle methods in functional components.
+- **Material UI**: Utilize prebuilt components for custom UI designs.
+- **Axios / Fetch API / React Query**: Handle HTTP requests and data fetching efficiently.
 
 ### Deployment
 - **AWS**: Cloud deployment for high scalability and availability.
-- **Docker**: Containerization to ensure consistent development and production environments.
+- **Docker**: Containerization for consistent development and production environments.
 
 ## Getting Started
 
@@ -50,12 +50,17 @@ This project is designed to deliver fast and efficient RESTful web services powe
    git clone https://github.com/Jitendra145/cardatabase.git
    ```
 
-2. Navigate to the backend folder and run:
+2. Navigate to the backend folder and build the project with Gradle:
    ```bash
-   ./mvnw spring-boot:run
+   ./gradlew build
    ```
 
-3. Navigate to the frontend folder and run:
+3. Run the Spring Boot application:
+   ```bash
+   ./gradlew bootRun
+   ```
+
+4. Navigate to the frontend folder and install dependencies:
    ```bash
    npm install
    npm start
@@ -63,9 +68,9 @@ This project is designed to deliver fast and efficient RESTful web services powe
 
 ### Running Tests
 
-To run unit tests for the backend:
+To run backend unit tests:
 ```bash
-./mvnw test
+./gradlew test
 ```
 
 For frontend tests:
@@ -82,5 +87,6 @@ npm test
      ```
 
 2. **AWS**:
-   - Deploy using your AWS account with services like EC2, S3, or Elastic Beanstalk.
+   - Deploy the app using AWS services such as EC2, S3, or Elastic Beanstalk.
 
+---
